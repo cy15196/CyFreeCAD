@@ -1,0 +1,9 @@
+TEMPLATE = lib
+TARGET = FreeCADGui
+
+win32{
+DEFINES += FCGui
+DEFINES += BOOST_DYN_LINK
+}
+
+OTHER_FILES += CMakeLists.txt
